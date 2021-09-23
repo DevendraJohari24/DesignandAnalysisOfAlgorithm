@@ -19,7 +19,6 @@ int main(){
                 sum = a[i] + a[j];
                 int l=0;
                 int r=n-1;
-
                 while(l<=r){ //  O(log(n))
                     int mid = (l+r)/2;
                     if(a[mid]==sum){
